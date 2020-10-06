@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SerialPortTerminal.FakeObjectSet&lt;TEntity&gt;" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAAgIAABIAAAAABIAAAAAEAAAYAAAAgAA=</HashCode>
+      <FileName>Fakes\FakeObjectSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SerialPortTerminal.FakePartContext" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAgQAABAAAABAAQAAAgCQAAAEQAAIAAA=</HashCode>
+      <FileName>Fakes\FakePartContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SerialPortTerminal.Generation">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Fakes\Generation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.Part">
+    <Position X="9.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAgAAAAAAAAAAAAAAAEgAAAABAAAAAAQ=</HashCode>
+      <FileName>SettingBarometers\Part.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.Common.PartRepository" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\PartRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SerialPortTerminal.Common.UnitOfWork" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAJAAAAEAAACAAAAAAAAAAAAAggABAQAAAAAAAAA=</HashCode>
+      <FileName>Common\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SerialPortTerminal.SettingBarometers.DeviceDetail">
+    <Position X="12" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAgAgAAAAAAAAAAAAFAAAUAAA=</HashCode>
+      <FileName>SettingBarometers\DeviceDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.SettingBarometers.PartDevices">
+    <Position X="24.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>SettingBarometers\PartDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.SettingBarometers.DeviceBRS1M">
+    <Position X="12" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAAAAAAAAAAAAAAAAAAAEAABACAgAAAAAAAAA=</HashCode>
+      <FileName>SettingBarometers\DeviceBRS1M.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.BasicPartViewModel">
+    <Position X="3" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ViewModel\BasicPartViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.MainViewModel">
+    <Position X="5.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgAEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAkAAA=</HashCode>
+      <FileName>ViewModel\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.DeviceDetaillViewModel">
+    <Position X="7.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ParameterDetailViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.PartViewModel">
+    <Position X="3" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAQIQAAAAAAAACQAABCIAAAAAAAAAAAASA=</HashCode>
+      <FileName>ViewModel\PartViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.PartWorkspaceViewModel">
+    <Position X="0.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAIAQAAAAAAAAACAACAAAAEAAQAAQAEgAAA=</HashCode>
+      <FileName>ViewModel\PartWorkspaceViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.DeviceBRS1MViewModel">
+    <Position X="7.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AMACAAAAAAAAAAAAAAAAAAoAAAEAABACAggEAAAUAAA=</HashCode>
+      <FileName>ViewModel\DeviceBRS1MViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SerialPortTerminal.ViewModel.Helpers.DelegateCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAICAAQAAEAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ViewModel\Helpers\DelegateCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SerialPortTerminal.Helpers.ViewModelBase" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Helpers\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SerialPortTerminal.IPartContext">
+    <Position X="16.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAgAAABAAAAAAAQAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>SettingBarometers\IPartContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SerialPortTerminal.Common.IPartRepository">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\IPartRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SerialPortTerminal.Common.IUnitOfWork">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAEAAAAAAAAAAAAAAAAAggAAAQAAAAAAAAA=</HashCode>
+      <FileName>Common\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
