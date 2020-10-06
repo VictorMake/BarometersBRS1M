@@ -224,6 +224,7 @@
   <ItemGroup>
     <EmbeddedResource Include="About.htm" />
     <Content Include="App.ico" />
+    <Content Include="Git.txt" />
     <Content Include="Notes.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -261,12 +262,12 @@
   <ItemGroup>
     <PublishFile Include="SerialPort Terminal.pdb">
       <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
       <Group>
       </Group>
       <TargetPath>
       </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
       <FileType>File</FileType>
     </PublishFile>
   </ItemGroup>
